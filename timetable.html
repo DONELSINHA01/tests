@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        position: relative;
+        height: 98vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    table,tr,td,th{
+        border: 1px solid black;
+        height: 50px;
+        width: 500px;
+        text-align: center;
+    }
+    table{
+        background-color: white;
+    }
+    td{
+        min-width: 40px;
+    }
+    h1{
+        text-align: center;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+</style>
+<body>
+    <h1>lan's Timetable</h1>
+    <table >
+        <tr>
+          <td></td>
+          <td></td>
+          <th colspan="3">Morning</th>
+          <th>lunch</th>
+          <th colspan="4">afternoon</th>
+          <th colspan="3">evening</th>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="small" style="width:max-content;">9-10 am</td>
+          <td class="small" style="width:max-content;">10-11 am</td>
+          <td class="small" style="width:max-content;">11-12am</td>
+          <td>1-2 pm</td>
+          <td>2-3 pm</td>
+          <td>3-4 pm</td>
+          <td>4-5 pm</td>
+          <td>5-6 pm</td>
+          <td>6-7 pm</td>
+          <td>7-8 pm</td>
+          <td>8-9 pm</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Work</td>
+          
+          <td class="small" style="width:max-content;">Monday</td>
+          <td colspan="3" class="small" style="width:max-content;">Development Meeting</td>
+          <td class="small" style="width:max-content;"></td>
+
+
+          <td colspan="3">Client meeting</td>
+          <td>commute</td>
+          <td colspan="3">Free</td>
+          
+        </tr>
+        <tr>
+
+          <td class="small" style="width:max-content;">Tuesday</td>
+          <td colspan="3" class="small" style="width:max-content;">in Office</td>
+          <td class="small" style="width:max-content;"></td>
+          <td colspan="8">in Office</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">Lecture</td>
+          <td class="small" style="width:max-content;">Wednesday</td>
+          <td colspan="3" class="small" style="width:max-content;">CSC205</td>
+          <td class="small" style="width:max-content;"></td>
+
+
+          <td colspan="8">preparation</td>
+
+        </tr>
+        <tr>
+
+          <td class="small" style="width:max-content;">Tuesday</td>
+          <td colspan="3" class="small" style="width:max-content;">in Office</td>
+          <td class="small" style="width:max-content;"></td>
+          <td colspan="3">Tutorials for MAM2020</td>
+          <td colspan="4">Free</td>
+        </tr>
+
+        <tr>
+            <td>Research</td>
+            <td>Research</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="8">Research</td>
+        </tr>
+      </table>
+      
+</body>
+</html>
