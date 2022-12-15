@@ -1,0 +1,212 @@
+*{
+margin: 0;
+padding: 0;
+}
+.mainContainer{
+    overflow: hidden;
+}
+.landingpage{
+    background: url("/HERO\ BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
+
+
+nav{
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.header {
+   
+    margin-right: 5px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+
+}
+
+.menu{
+    list-style: none;
+    margin-right: 5px;
+
+    
+}
+.box{
+    box-shadow: 2px 2px 5px  #949191;
+    padding:5px;
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 40vh;
+    height: 49vh;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.boxHeading{
+    
+text-align: center;
+width: 343px;
+left: 24px;
+top: 32px;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+
+/* Secondary/Dark Grey */
+
+color: #484848;
+}
+
+.label{
+    width: 17px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-transform: uppercase;
+    color: #484848; 
+}
+
+.box input{
+    border: 1px solid rgb(197, 190, 190);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vh;
+    height: 35px;
+}
+
+.smallBox{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.together{
+ display: flex; 
+ 
+}
+.together input{
+   width: 100%;
+}
+
+.button1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 14px;
+    margin-left: 62%;  
+    width: 14vh; 
+    height:5vh; 
+    border: 2px solid #f97579;
+     border-radius: 4px; 
+     background-color:  #FF5A5F; 
+     color: antiquewhite;
+}
+
+.explore{
+    
+    margin:50px;
+    
+}
+.allBoxes{
+    border-radius: 12px;
+    margin-top: 35px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.exbox img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.exbox{
+    box-shadow: 2px 2px 2px  #b1b0b0;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 26vw;
+    background: #FFFFFF;
+    border:1px solid rgb(212, 206, 196);
+    border-radius: 12px;
+
+}
+
+p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.rect4{
+border: 1px solid black;
+width:100%;
+height:28vh;
+background: url(/Rectangle\ 5.png);
+background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.button2{
+    
+    width: 200px; 
+    height:44px; 
+    border: 4px solid #f7f4f4;
+     border-radius: 2px; 
+     background-color:  #f5f2f2; 
+     
+     color: rgb(46, 45, 45);
+}
+
+.logoPlus{
+    margin-bottom: 8px;
+    width: 104.5px;
+    height: 112.27px;
+    
+}
+
