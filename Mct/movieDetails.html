@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link rel="stylesheet" href="search.css" /> -->
+		<link rel="stylesheet" href="movieDetails.css" />
+		<script src="MovieDetails.js" defer></script>
+		<script src="genreIds.js" defer></script>
+		<script src="Months.js"></script>
+
+		<title>movieDetails</title>
+	</head>
+	<!-- https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sv1xJUazXeYqALzczSZ3O6nkH75.jpg -->
+	<body>
+		<nav>
+			<div class="logo"><a href="index.html">THE MOVIE DATABASE</a></div>
+			<div class="toggleItem">
+				<a href="index.html">Home</a>
+				<a href="search.html">Search</a>
+			</div>
+		</nav>
+		<div class="detailsBody" id="detailsBody">
+			<div class="bgImgContainer" id="bgImgContainer"></div>
+			<div class="box">
+				<img id="frontImg" class="frontImg" src="" alt="" />
+			</div>
+			<div class="details">
+				<div class="percentage" id="percentage">70</div>
+				<div class="date" id="date">10 Feb 2023</div>
+				<div class="length" id="length">125 mins</div>
+				<div class="language" id="language"></div>
+				<div class="genre" id="genre"></div>
+				<div class="title">
+					<h3 id="titleh3">Ant-Man and the wasp: Quantumania</h3>
+				</div>
+			</div>
+			<!-- <div class="box"></div> -->
+		</div>
+		<div class="moreDetails">
+			<div class="plot">
+				<h4>Plot</h4>
+				<hr />
+				<br /><br />
+				<p id="overview"></p>
+			</div>
+			<div class="cast" id="cast">
+				<h3>Cast</h3>
+				<hr />
+				<br /><br />
+				<!-- <div class="castDetails" id="castDetails">
+					<img
+						src="https://image.tmdb.org/t/p/w45/8eTtJ7XVXY0BnEeUaSiTAraTIXd.jpg"
+						alt=""
+					/>
+					<p>res</p>
+				</div> -->
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="search.css" />
+		<script src="genreIds.js" defer></script>
+		<script src="search.js" defer></script>
+		<!-- <script src="MovieDetails.js" defer></script> -->
+		<title>Search</title>
+	</head>
+	<body>
+		<nav>
+			<div class="logo"><a href="index.html">THE MOVIE DATABASE</a></div>
+			<div class="toggleItem">
+				<a href="index.html">Home</a>
+				<link rel="import" href="search.html" />
+				<a href="search.html">Search</a>
+			</div>
+		</nav>
+		<div class="navwrapper">
+			<select id="selectfromsearch">
+				<option value="movie">Movies</option>
+				<option value="tv">Series</option>
+			</select>
+			<input
+				type="text"
+				id="inputfromsearch"
+				placeholder="   Search by title"
+			/>
+			<button type="submit" id="search" onclick="callSearch()">
+				<img src="./images/icons8-search.gif" alt="" />
+			</button>
+		</div>
+		<hr />
+		<div class="container" id="container">
+			<!-- <div class="btnContainer">
+				<button class="btn">«</button>
+				<button class="btn active">1</button>
+				<button class="btn">2</button>
+				<button class="btn">3</button>
+				<button class="btn">»</button>
+			</div> -->
+		</div>
+	</body>
+</html>
