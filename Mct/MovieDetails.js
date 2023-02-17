@@ -24,7 +24,7 @@ var API_KEY = "c114a1f12896d9cd8053ac79992d0de5";
 // 	bgImgContainer.style.backgroundImage = `url('./images/dp.jpg')`;
 
 fetch(
-	`https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}&language=en-US`
+	`https://api.themoviedb.org/3/${media_type}/${id}?api_key=${API_KEY}&language=en-US`
 )
 	.then((res) => res.json())
 	.then((res) => {
@@ -69,10 +69,12 @@ fetch(
 				language.innerText = spokenLanguage;
 			}
 		});
-		titleh3.innerText = res.original_title;
-		lengths.innerText = res.runtime;
+		titleh3.innerText = res.original_title || res.original_name;
+		lengths.innerText = res.runtime || `${res.number_of_episodes} episode`;
 		let date = "";
-		let temp = res.release_date.split("-");
+		let temp =
+			(res.release_date !== undefined && res.release_date.split("-")) ||
+			(res.first_air_date !== undefined && res.first_air_date.split("-"));
 		date += `${temp[2]} ${months[temp[1] - 1]} ${temp[0]}`;
 		dates.innerText = date;
 		percentages.innerText = `${res.vote_average.toFixed(1) * 10}%`;
@@ -116,3 +118,4 @@ fetch(
 // 	// console.log(id);
 // }
 // // // movieDetails(505642);
+
